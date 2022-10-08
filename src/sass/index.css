@@ -167,4 +167,140 @@ textarea {
   .container {
     width: 1200px;
   }
+}
+
+/**
+  |============================
+  | Contacts
+  |============================
+*/
+.contacts {
+  padding-bottom: 55px;
+}
+@media screen and (min-width: 768px) {
+  .contacts {
+    padding-bottom: 112px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    padding-bottom: 55px;
+  }
+}
+
+.container {
+  outline: 2px solid yellow;
+  outline-offset: -2px;
+}
+
+.contacts__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 3.3333333333;
+  margin-bottom: 38px;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .contacts__title {
+    font-size: 30px;
+    line-height: 2.6666666667;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__title {
+    font-size: 36px;
+    line-height: 2.2222222222;
+    margin-bottom: 60px;
+  }
+}
+
+.contact__thumb {
+  margin-top: 38px;
+}
+@media screen and (min-width: 768px) {
+  .contact__thumb {
+    margin-left: 38px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact__thumb {
+    margin-left: 144px;
+  }
+}
+
+.contacts__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 31px;
+  color: #8f95a5;
+}
+@media screen and (min-width: 768px) {
+  .contacts__description {
+    margin-bottom: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__description {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.contacts__input {
+  font-size: 16px;
+  line-height: 1.875;
+  margin-bottom: 17px;
+  padding: 16px 24px;
+  border: 1px solid #8f95a5;
+  border-radius: 10px;
+  color: #8f95a5;
+}
+@media screen and (min-width: 768px) {
+  .contacts__input {
+    margin-bottom: 0;
+    margin-right: 6px;
+    padding: 16px 24px;
+    max-width: 283px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__input {
+    margin-bottom: 0;
+    margin-right: 30px;
+    padding: 20px 30px;
+    max-width: 455px;
+    height: 70px;
+  }
+}
+
+.contacts__button {
+  background: #263238;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  /* identical to box height */
+  max-width: 291px;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__button {
+    max-width: 145px;
+    padding: 15px 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__button {
+    max-width: 312px;
+    padding: 20px 56px;
+    height: 70px;
+  }
 }/*# sourceMappingURL=index.css.map */

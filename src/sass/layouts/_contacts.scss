@@ -1,0 +1,128 @@
+/**
+  |============================
+  | Contacts
+  |============================
+*/
+.contacts {
+  padding-bottom: 55px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 112px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 55px;
+  }
+}
+.container {
+  outline: 2px solid yellow;
+  outline-offset: -2px;
+}
+.contacts__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(80 / 24);
+
+  margin-bottom: 38px;
+
+  color: #000000;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+    line-height: calc(80 / 30);
+
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: calc(80 / 36);
+
+    margin-bottom: 60px;
+  }
+}
+.contacts__img {
+}
+.contact__thumb {
+  margin-top: 38px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 38px;
+
+    margin-top: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 144px;
+  }
+}
+.contacts__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  margin-bottom: 31px;
+
+  color: #8f95a5;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+}
+.contacts__input {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+
+  margin-bottom: 17px;
+  padding: 16px 24px;
+
+  border: 1px solid #8f95a5;
+  border-radius: 10px;
+
+  color: #8f95a5;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    margin-right: 6px;
+    padding: 16px 24px;
+    max-width: 283px;
+    height: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-right: 30px;
+    padding: 20px 30px;
+    max-width: 455px;
+    height: 70px;
+  }
+}
+.contacts__button {
+  background: #263238;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  /* identical to box height */
+
+  max-width: 291px;
+  height: 50px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  border-radius: 10px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 145px;
+
+    padding: 15px 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 312px;
+    padding: 20px 56px;
+    height: 70px;
+  }
+}
