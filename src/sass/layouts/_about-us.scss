@@ -1,0 +1,66 @@
+.about-us {
+  &__title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72 / 48;
+    color: #000000;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      text-align-last: left;
+    }
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__txt {
+    width: 100%;
+    margin-top: 23px;
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 36 / 20;
+    color: #8f95a5;
+  }
+
+  &__block {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__info-block {
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  &__item {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__number {
+    font-size: 22px;
+    line-height: 80 / 22;
+    color: #2a3246;
+  }
+
+  &__caption {
+    font-size: 13px;
+    line-height: 20 / 13;
+    color: #8f95a5;
+  }
+}
