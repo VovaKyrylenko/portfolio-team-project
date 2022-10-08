@@ -1,2 +1,11 @@
+@import './base/base';
 @import './common';
-@import './example';
+@import './utils/vars';
+@import './componets/container';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/skills';
+@import './layouts/about-us';
+@import './layouts/pricing';
+@import './layouts/contacts';
+@import './layouts/footer';
